@@ -291,10 +291,11 @@ licenses. See THIRD_PARTY_NOTICES.md and per-file headers for details.
 ## Citation
 
 ```
-@inproceedings{yin2026tdfixer,
+@inproceedings{yin20263d,
   title={3D-Fixer: Coarse-to-Fine In-place Completion for 3D Scenes from a Single Image},
-  author={Yin, Ze-Xin and Liu, Liu and Wang, Xinjie and Sui, Wei and Su, Zhizhong and Yang, Jian and Xie, jin},
-  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  author={Yin, Ze-Xin and Liu, Liu and Wang, Xinjie and Sui, Wei and Su, Zhizhong and Yang, Jian and Xie, Jin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={12753--12763},
   year={2026}
 }
 ```

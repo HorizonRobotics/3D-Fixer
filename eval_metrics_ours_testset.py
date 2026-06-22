@@ -284,10 +284,8 @@ if __name__ == "__main__":
                     continue
 
                 instance_sha256 = instances_gt[f'{object_id}']['sha256']
-                if not os.path.exists(os.path.join(opt.assets_dir, instance_sha256, 'transforms.json')):
+                if not os.path.exists(os.path.join(opt.assets_dir, instance_sha256, 'mesh.ply')):
                     continue
-                with open(os.path.join(opt.assets_dir, instance_sha256, 'transforms.json'), 'r') as f:
-                    instance_js = json.load(f)
 
                 instance_sha256 = instances_gt[f'{object_id}']['sha256']
                 gt_rot = instances_gt[f'{object_id}']['rand_rot']
